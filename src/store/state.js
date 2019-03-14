@@ -6,4 +6,4 @@ const state = {
   miniComponentsInfo: {}
 }
 
-export default state;
+export default state
