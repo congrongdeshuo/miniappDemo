@@ -3,6 +3,8 @@ const state = {
   vueInfo: {},
   reactInfo: {},
   logInfo: [],
+  reqError: [],
+  detailUrl: '',
   miniComponentsInfo: {}
 }
 

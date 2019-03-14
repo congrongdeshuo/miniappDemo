@@ -1,44 +1,48 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/miniapp/main",
+    "pages/vue/main",
+    "pages/react/main",
+    "pages/logs/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat-demo",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#999",
-    "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
+    "backgroundColor": "#f2f2f6",
+    "selectedColor": "#7abf45",
     "borderStyle": "white",
-
-    "list": [{
-      "text": "首页",
-      "pagePath": "pages/index/main",
-      "iconPath": "static/tabs/home.png",
-      "selectedIconPath": "static/tabs/home-active.png"
-    }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
-      "iconPath": "static/tabs/orders.png",
-      "selectedIconPath": "static/tabs/orders-active.png"
-    }],
-
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, {
-      "name": "订单",
-      "pagePath": "pages/logs/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }],
+    "list": [
+      {
+        "text": "MINI",
+        "pagePath": "pages/miniapp/main",
+        "iconPath": "static/images/xiaochengxu.png",
+        "selectedIconPath": "static/images/xiaochengxu_1.png"
+      }, 
+      {
+        "text": "VUE",
+        "pagePath": "pages/vue/main",
+        "iconPath": "static/images/vuejs.png",
+        "selectedIconPath": "static/images/Vue.png"
+      },
+      {
+        "text": "REACT",
+        "pagePath": "pages/react/main",
+        "iconPath": "static/images/react.png",
+        "selectedIconPath": "static/images/react_1.png"
+      },
+      {
+        "text": "LOG",
+        "pagePath": "pages/logs/main",
+        "iconPath": "static/images/log_1.png",
+        "selectedIconPath": "static/images/log.png"
+      }
+    ],
     "position": "bottom"
-  }
+  },
+  "requiredBackgroundModes": ["audio"]
 }
